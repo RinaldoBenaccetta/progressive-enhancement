@@ -1,5 +1,24 @@
 p {
-    font-size: 12px;
+    font-size: 1rem;
+    letter-spacing: .15rem;
 	font-family: serif;
 	color: #330000;
+}
+
+a {
+    color: #bd0827;
+    font-size: 1.1em;
+}
+
+a:visited {
+    color: #330000;
+}
+
+a:hover {
+    background-color: bd0827;
+    color: white;
+}
+
+body {
+    max-width: 90%;
 }
