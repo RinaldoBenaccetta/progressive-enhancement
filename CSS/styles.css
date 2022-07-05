@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 p {
     font-size: 1rem;
     letter-spacing: .15rem;
-	font-family: serif;
 	color: #330000;
 }
 
@@ -24,6 +25,16 @@ body {
     margin: auto;
     background: -webkit-linear-gradient(45deg, rgb(222, 222, 241), rgb(106, 89, 133));
     background: linear-gradient(45deg, rgb(222, 222, 241), rgb(106, 89, 133));
+    background-image: url("/IMG/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-family: 'Open Sans';
+
+}
+
+q {
+    font-style: italic;
 }
 
 blockquote {
@@ -33,4 +44,64 @@ blockquote {
     background-color: #ddd;
     border-left: 3px solid firebrick;
     padding: 30px;
+}
+
+.villager {
+    border-left: 3px solid red;
+}
+
+.farmer {
+    border-left: 3px solid green;
+}
+
+header > h1 {
+    background-color: yellow;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+ul li {
+    padding-left: 64px;
+    height: 100px;
+}
+
+ul li:nth-child(1) {
+    background-image: url("/IMG/bien.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+ul li:nth-child(2) {
+    background-image: url("/IMG/mal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+ul li:nth-child(3) {
+    background-image: url("/IMG/chat.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+img {
+    float: left;
+    margin: 1rem;
 }
